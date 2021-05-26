@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
+    "module": "commonjs",
     "target": "ES2015",
-    "sourceMap": true
+    "sourceMap": true,
+    "outDir": "dist" //컴파일 된것 들은 안으로
   },
-  "include": ["index.ts"],
+  "include": ["src/**/*"], //src안에 모든 것을 컴파일 한다.
   "exclude": ["node_modules"]
 }
